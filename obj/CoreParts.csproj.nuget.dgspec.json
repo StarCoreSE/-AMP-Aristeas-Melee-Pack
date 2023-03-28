@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jessi\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\CoreParts.csproj": {}
+    "C:\\Users\\jnick\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\CoreParts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jessi\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\CoreParts.csproj": {
+    "C:\\Users\\jnick\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\CoreParts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jessi\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\CoreParts.csproj",
+        "projectUniqueName": "C:\\Users\\jnick\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\CoreParts.csproj",
         "projectName": "CoreParts",
-        "projectPath": "C:\\Users\\jessi\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\CoreParts.csproj",
-        "packagesPath": "C:\\Users\\jessi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jessi\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\obj\\",
+        "projectPath": "C:\\Users\\jnick\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\CoreParts.csproj",
+        "packagesPath": "C:\\Users\\jnick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jnick\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jessi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jnick\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0RJqwo4XHEguqAuL9F/oADImMECQmJ7A3GFJj8KByr84dgVKKiCwoPoBu76IdBqBNl326kG5lKSD5I0bXUHCmA==",
+  "dgSpecHash": "jpIbB0y1bk3HYJYwrNhjsUSQV9BD2OoTH+LXhOd8TE+LFvvEl6QDzZHUb9UFWdAR4lasWGck5BRHHN/KlGjw+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jessi\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\CoreParts.csproj",
+  "projectFilePath": "C:\\Users\\jnick\\AppData\\Roaming\\SpaceEngineers\\Mods\\Aristeas Melee Pack\\CoreParts.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jessi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jessi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\jnick\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jnick\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
