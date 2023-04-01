@@ -52,7 +52,8 @@
 			<Description>
 				Skin 1
 				[UNLIMITED POWAH]
-				[750m] range arc emitter.
+				[1km] range arc emitter.
+        Falloff at [500m], down to 50% damage.
 				[Energy] || [Hitscan]
 				EFFECTIVE AGAINST: shields
 				INEFFECTIVE AGAINST: armor
@@ -88,13 +89,14 @@
 			</Id>
 			<DisplayName>Chiasm [Arc Emitter]</DisplayName>
 			<Description>
-				Skin 2
-				[UNLIMITED POWAH]
-				[750m] range arc emitter.
-				[Energy] || [Hitscan]
-				EFFECTIVE AGAINST: shields
-				INEFFECTIVE AGAINST: armor
-			</Description>
+        Skin 2
+        [UNLIMITED POWAH]
+        [1km] range arc emitter.
+        Falloff at [500m], down to 50% damage.
+        [Energy] || [Hitscan]
+        EFFECTIVE AGAINST: shields
+        INEFFECTIVE AGAINST: armor
+      </Description>
 			<Icon>Textures\GUI\Icons\ArcReskin.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
