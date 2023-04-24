@@ -347,14 +347,14 @@ namespace Scripts
                 },
                 Lines = new LineDef
                 {
-                    ColorVariance = Random(start: 1f, end: 1f), // multiply the color by random values within range.
+                    ColorVariance = Random(start: 0.75f, end: 2f), // multiply the color by random values within range.
                     WidthVariance = Random(start: 0f, end: 0f), // adds random value to default width (negatives shrinks width)
                     Tracer = new TracerBaseDef
                     {
                         Enable = true,
-                        Length = 1f, //
-                        Width = 4f, //
-                        Color = Color(red: 1f, green: 1f, blue: 1.2f, alpha: 0f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Length = 0.5f, //
+                        Width = 0.25f, //
+                        Color = Color(red: 15f, green: 15, blue: 55f, alpha: 0.1f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -363,19 +363,19 @@ namespace Scripts
                         TextureMode = Normal, // Normal, Cycle, Chaos, Wave
                         Segmentation = new SegmentDef
                         {
-                            Enable = false, // If true Tracer TextureMode is ignored
+                            Enable = true, // If true Tracer TextureMode is ignored
                             Textures = new[] {
-                                "WHATTHEFUCK", "WHATTHEFUCK_F",
+                                "WeaponLaser", // Please always have this Line set, if this Section is enabled.
                             },
-                            SegmentLength = 20f, // Uses the values below.
-                            SegmentGap = 15f, // Uses Tracer textures and values
-                            Speed = 0.1f, // meters per second
-                            Color = Color(red: 1f, green: 1f, blue: 1.2f, alpha: 0.1f),
+                            SegmentLength = 50f, // Uses the values below.
+                            SegmentGap = 0f, // Uses Tracer textures and values
+                            Speed = 0f, // meters per second
+                            Color = Color(red: 15, green: 15, blue: 55f, alpha: 0.1f),
                             WidthMultiplier = 1f,
                             Reverse = false,
-                            UseLineVariance = false,
-                            WidthVariance = Random(start: 0f, end: 0f),
-                            ColorVariance = Random(start: 1f, end: 1f)
+                            UseLineVariance = true,
+                            WidthVariance = Random(start: 0.5f, end: 0.75f),
+                            ColorVariance = Random(start: 0f, end: 0f)
                         }
                     },
                     Trail = new TrailDef
@@ -394,9 +394,9 @@ namespace Scripts
                     },
                     OffsetEffect = new OffsetEffectDef
                     {
-                        MaxOffset = 0,// 0 offset value disables this effect
-                        MinLength = 0.2f,
-                        MaxLength = 3,
+                        MaxOffset = 8,// 0 offset value disables this effect
+                        MinLength = 5f,
+                        MaxLength = 15,
                     },
                 },
             },
