@@ -7,7 +7,7 @@
       <Length>90</Length>
       <Preload>0</Preload>
       <LowRes>false</LowRes>
-      <Loop>false</Loop>
+      <Loop>true</Loop>
       <DurationMin>0</DurationMin>
       <DurationMax>0</DurationMax>
       <Version>0</Version>
