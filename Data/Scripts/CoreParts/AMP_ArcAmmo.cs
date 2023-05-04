@@ -395,8 +395,8 @@ namespace Scripts
                     OffsetEffect = new OffsetEffectDef
                     {
                         MaxOffset = 8,// 0 offset value disables this effect
-                        MinLength = 5f,
-                        MaxLength = 15,
+                        MinLength = 15f,
+                        MaxLength = 45f,
                     },
                 },
             },
